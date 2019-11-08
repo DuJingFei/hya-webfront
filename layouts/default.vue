@@ -1,8 +1,17 @@
 <template>
   <div>
+    <home-header/>
     <nuxt />
   </div>
 </template>
+<script>
+import HomeHeader from '~/components/HomeHeader'
+export default {
+  components: {
+    HomeHeader
+  }
+}
+</script>
 
 <style>
 html {

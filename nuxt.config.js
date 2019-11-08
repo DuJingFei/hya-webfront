@@ -23,6 +23,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/assets/css/index.less',
     'element-ui/lib/theme-chalk/index.css'
   ],
   /*
@@ -59,5 +60,5 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
 }
